@@ -20,7 +20,7 @@ function Home() {
           image="https://images-na.ssl-images-amazon.com/images/I/81j14WXbc%2BL._UL1500_.jpg"
         />
         <Product
-          id="123"
+          id="234"
           title="OnePlus Nord "
           price={24999}
           rating={4}
@@ -29,21 +29,21 @@ function Home() {
       </div>
       <div className="home__row">
         <Product
-          id="123"
+          id="345"
           title="Do It Today: Overcome Procrastination, Improve Productivity, and Achieve More Meaningful Things Kindle Edition"
           price={550}
           rating={5}
           image="https://m.media-amazon.com/images/I/41-G7AIOZyL.jpg"
         />
         <Product
-          id="123"
+          id="456"
           title="Acer Nitro 7 9th Gen Core i5 15.6-inch Full HD IPS Thin and Light Gaming Laptop (8GB/1TB SSD/Windows 10/6GB Graphics/Obsidian Black/2.5kg), AN715-51"
           price={82829}
           rating={3}
           image="https://images-na.ssl-images-amazon.com/images/I/71IBJRa3EBL._SL1500_.jpg"
         />
         <Product
-          id="123"
+          id="567"
           title="Apple iPad (10.2-inch, Wi-Fi + Cellular, 32GB) - Space Grey (Latest Model) "
           price={40900}
           rating={3}
@@ -52,7 +52,7 @@ function Home() {
       </div>
       <div className="home__row">
         <Product
-          id="123"
+          id="678"
           title="Apple TV 4K (64GB)"
           price={90000}
           rating={4}
