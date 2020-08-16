@@ -1,0 +1,71 @@
+.header{
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header_logo{
+    width: 100px;
+    object-fit: contain; /* to make the logo loook the same irrespective of scren size variation */
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header_searchIcon {
+    background-color: #cd9042;
+    height: 22px !important;
+    padding: 5px;
+}
+
+.header_search {
+    display: flex;
+    flex: 1; /* imp */
+    padding-right: 20px;
+}
+
+.header_searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%; /* imp  when size changes we are saying searchInput to take 100% of width it can take*/
+}
+
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+
+.header_link {
+    text-decoration: none;
+    color: white;
+}
+
+.header_option_line_one{
+    font-size: 12px;
+}
+
+.header_option_line_two{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.header_optionBasket{
+    display: flex;
+}
+
+.header_basket_count{
+    margin: 22px 7px 0px 0px;
+}
+
+.header_shopping_basket{
+    margin-top: 10px;
+}
