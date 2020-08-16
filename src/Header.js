@@ -31,7 +31,7 @@ function Header() {
         <Link to="/login" className="header__link">
           <div className="header__option">
             <span className="header__optionLineOne">Hello,</span>
-            <span className="header__optionLineTwo">Sign In</span>
+            <span className="header__optionLineTwo">Saaketh</span>
           </div>
         </Link>
         {/* 2nd Link */}
@@ -59,7 +59,7 @@ function Header() {
           </span>
           {/* number of items inthe basket */}
           <span className="header__optionLineTwo header__basketCount">
-            {basket.length}
+            {basket?.length}
           </span>
         </div>
       </Link>

@@ -1,0 +1,9 @@
+.checkout img {
+  width: 100%;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+.checkout__title {
+  margin-left: 15px;
+}
