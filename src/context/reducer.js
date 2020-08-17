@@ -1,14 +1,5 @@
 export const initialState = {
-  basket: [
-    {
-      id: "123",
-      image:
-        "https://images-na.ssl-images-amazon.com/images/I/81j14WXbc%2BL._UL1500_.jpg",
-      price: 303,
-      rating: 3,
-      title: "Redux Analogue Blue Dial Men’s & Boy's Watch RWS0230S",
-    },
-  ],
+  basket: [],
 };
 
 const reducer = (state, action) => {
